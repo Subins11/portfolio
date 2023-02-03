@@ -1,0 +1,248 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-color: #5cdb95;
+    background-position: center;
+}
+nav{
+    font-size: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items:center;
+}
+.logo{
+    color: #05386B;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+span{
+    color: brown;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #05386B;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: crimson;
+    transition:cubic-bezier(0.175, 0.885, 0.32, 1.275)
+
+}
+.contents{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+    
+}
+h1{
+    color: #05386B;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+span{
+    color: darkred;
+}
+h3{
+    color: #05386B;
+    font-size: 25px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+h4{
+    color: #05386B;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.login{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.img{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #5cdb95;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    
+    width: 1130px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-text h2{
+    color: #05386B;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+.about-text h5{
+    color: #05386B;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #05386B;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-top: 45px;
+}
+.skills{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #5cdb95;
+}
+.skill-prog{
+  margin-bottom: 25px;
+
+}
+.skill-prog h3{
+    width: 550px;
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+.skill-prog h4{
+margin: 0 0 15px 15px;
+letter-spacing: 1px;
+}
+.progress-bar{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #f1f1f1;
+    box-shadow: 3px 4px 5px 0px cadetblue;
+}
+span1{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    width: 90%;
+    height: 100%;
+    color: #f1f1f1;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(76,175,80,1) 50%,rgba(50,222,132,1) 100%)
+
+}
+span2{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    width: 85%;
+    height: 100%;
+    color: #f1f1f1;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(76,175,80,1) 50%,rgba(50,222,132,1) 100%)
+}
+span3{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    width: 80%;
+    height: 100%;
+    color: #f1f1f1;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(76,175,80,1) 50%,rgba(50,222,132,1) 100%)
+}
+.contact-me{
+    height: 60%;
+    width: 100%;
+    background: #5cdb95;
+    align-items: center;
+    justify-content: center;
+    padding-left: 32%;
+}
+.details{
+    padding-top: 20px;
+}
+input[type=text]{
+    width: 60%;
+    height: 5px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 2px red;
+    border-radius: 4px;
+}
+input[type=email]{
+    width: 60%;
+    height: 5px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+input[type=phone]{
+    width: 60%;
+    height: 5px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.button {
+        background-color:darkslategray;
+        border: none;
+        color: black;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+ }
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #05386B;
+}
